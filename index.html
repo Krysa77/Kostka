@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kostka</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container text-center">
+        <h1>Hrací kostka</h1>
+        <div class="row" style="display: flex; justify-content: space-around;">
+            <div class="col-md-2">
+                <figure>
+                    <img class="cube" src="img/kostka6.png" alt="Kostka">
+                </figure>
+                <button class="btn btn-primary" onclick="hod(1)">Hod 1 kostkou</button>
+            </div>
+            <div class="col-md-2">
+                <figure>
+                    <img class="cube" src="img/kostka6.png" alt="Kostka">
+                </figure>
+                <button class="btn btn-primary" onclick="hod(2)">Hod 2 kostkami</button>
+            </div>
+            <div class="col-md-2">
+                <figure>
+                    <img class="cube" src="img/kostka6.png" alt="Kostka">
+                </figure>
+                <button class="btn btn-primary" onclick="hod(3)">Hod 3 kostkami</button>
+            </div>
+        </div>
+        <div id="result">Výsledeky hodů:</div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>

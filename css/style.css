@@ -1,0 +1,25 @@
+body {
+    background-color: #404040;
+    padding-top: 50px;
+    color: #e6e6e6;
+}
+
+.container {
+    background-color: #666666;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cube {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#result {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
